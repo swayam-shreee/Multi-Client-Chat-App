@@ -4,7 +4,7 @@
 
 A distributed chat system built with Python sockets that demonstrates real-time communication and scalability. The application is deployed on AWS, leveraging Elastic Load Balancing (ELB), EC2, ElastiCache (Redis), and CloudWatch for robust performance and monitoring. 
 
-![AWS Architecture Diagram](path/to/your/architecture_diagram.png)
+![AWS Architecture Diagram](ChatAppAWS_Architecture.png)
 
 ## Key Features
 
@@ -16,7 +16,7 @@ A distributed chat system built with Python sockets that demonstrates real-time 
 
 ## Technologies Used
 
-* **Language:** Python 3.x
+* **Language:** Python 3.12.5
 * **Core Libraries:** `socket`, `threading`, `redis`, `os`
 * **Infrastructure:** AWS EC2, AWS Elastic Load Balancing (ELB), AWS ElastiCache (Serverless Redis), AWS CloudWatch
 
@@ -37,7 +37,7 @@ A distributed chat system built with Python sockets that demonstrates real-time 
 ### Prerequisites
 
 * An active AWS Account.
-* Python 3.x installed on your local testing machine and AWS EC2 instances.
+* Python 3.12.5 installed on your local testing machine and AWS EC2 instances.
 * The `redis` Python package installed on your servers (`pip install redis`).
 
 ### AWS Configuration Steps
